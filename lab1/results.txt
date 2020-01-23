@@ -1,0 +1,66 @@
+
+3.1: Accuracy (score) on X_test and y_test data: 0.9123
+
+3.2: After 10 runs of cross-validation, the average score and
+     standard deviation of the trees on the test data are:
+     Avg. score: 0.9474
+     Std. Dev. : 0.0117
+     Accuracy: 0.9474 (+/- 0.0117)
+
+3.3: After 10-fold cross-validation, the average score and
+     standard deviation of the trees on the test data are:
+     Avg. score: 0.9316
+     Std. Dev. : 0.0321
+     Accuracy: 0.9316 (+/- 0.0321)
+
+3.4: After 10-fold cross-validation, the average score and
+     standard deviation of the trees on the test data are:
+     Avg. score: 0.9123
+     Std. Dev. : 0.0248
+     Accuracy: 0.9123 (+/- 0.0248)
+
+4.1: The confusion matrix is:
+                 |      ACTUAL
+                 |   YES      NO
+            YES  |   31        1
+ PREDICTED       |
+            NO   |   4        21
+
+4.2: The precision is: 0.9688
+
+4.3: The recall is: 0.8857
+
+4.4: The F1 score is: 0.9254
+
+4.5: After 10-fold cross-validation, the results on the test
+     data are:
+
+4.5: After 10-fold cross-validation, the results on the test
+     data are:
+     Precision: 0.9688 (+/- 0.0000)
+     Recall: 0.8857 (+/- 0.0000)
+
+4.6: The averaged precision, recall and F1 score are:
+     Avg. Precision: 0.6724 (+/- 0.1243)
+     Avg. Recall: 0.9774 (+/- 0.0676)
+     Avg. F1 score: 0.7967 
+
+5.1: The results for the 10-fold cross validation on the
+k-nearest neighbour are:
+            Precision   Recall   F1 score
+     Run 0:   0.9737    0.9737    0.9737
+     Run 1:   0.8500    1.0000    0.9189
+     Run 2:   0.9211    0.9722    0.9459
+     Run 3:   0.9333    0.9767    0.9545
+     Run 4:   0.8864    1.0000    0.9398
+     Run 5:   0.8857    0.9688    0.9254
+     Run 6:   0.8649    0.9697    0.9143
+     Run 7:   0.9118    1.0000    0.9538
+     Run 8:   0.9706    1.0000    0.9851
+     Run 9:   0.8947    0.9714    0.9315
+
+5.2: The averaged results for the 10-fold cross validation on the
+k-nearest neighbour are:
+     Avg. Precision: 0.9092 (+/- 0.0414)
+     Avg. Recall: 0.9833 (+/- 0.0146)
+     Avg. F1 score: 0.9443 (+/- 0.0231) 
